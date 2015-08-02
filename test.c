@@ -5,6 +5,7 @@
 int main(int argc, char *argv[])
 {
 	if (argc != 3) {
+		printf("not enought arguments\n");
 		return 1;
 	}
 
